@@ -1,0 +1,89 @@
+body {
+    font-family: "Arial Black", sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #cc5500;
+}
+
+.gallery {
+    text-align: center;
+    padding: 30px;
+}
+
+.car-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.track-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
